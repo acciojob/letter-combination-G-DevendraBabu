@@ -2,7 +2,7 @@ function letterCombinations(input_digit) {
   //Complete th
 	const map = ['0', '1', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'];
 	  let result = [''];
-	  for (let digit of digits) {
+	  for (let digit of input_digit) {
 	      let letters = map[digit];
 	      let temp = [];
 	      for (let letter of letters) {
