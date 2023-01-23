@@ -33,7 +33,8 @@ function letterCombinations(input_digit) {
             }
         }
       }
-      console.log(resarr);
+		resarr.sort();
+      return resarr;
 
 }
 
